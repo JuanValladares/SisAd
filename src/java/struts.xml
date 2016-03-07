@@ -1,0 +1,17 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<!-- Author: juan -->
+ 
+<struts>
+    <!-- Add your configuration elements here -->
+    <constant name="struts.devMode" value="true"/>
+    <package name="struts" extends="json-default">
+        <action name="getData" class="com.sisad.actions.UserAction" method="getData">
+            <result type="json">
+                <param name="root">child</param>
+            </result>
+        </action> 
+    </package>
+</struts>

@@ -1,0 +1,5 @@
+#gitignore
+nbproyect/
+dist/
+build/
+build.xml

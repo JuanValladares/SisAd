@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/SisAd">
+  <Resource 
+      auth="Container" 
+      driverClassName="org.mariadb.jdbc.Driver" 
+      name="jdbc/UsersDB" 
+      password="0LD5p1c@" 
+      type="javax.sql.DataSource" 
+      url="jdbc:mariadb://10.10.0.100:3306/SisAd" 
+      username="root"/>
+</Context>
