@@ -1,5 +1,5 @@
 #gitignore
-nbproyect/
+nbproject/
 dist/
 build/
 build.xml
